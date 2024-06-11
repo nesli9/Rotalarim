@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\doann\\OneDrive\\Masaüstü\\Rotalarim\\Rotalarim\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
       "Id": "C:\\Users\\doann\\OneDrive\\Masaüstü\\Rotalarim\\Rotalarim\\wwwroot\\img\\1.jpg",
       "PackagePath": "staticwebassets\\img\\1.jpg"
     },
@@ -11,6 +15,14 @@
     {
       "Id": "C:\\Users\\doann\\OneDrive\\Masaüstü\\Rotalarim\\Rotalarim\\wwwroot\\img\\3.jpg",
       "PackagePath": "staticwebassets\\img\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\doann\\OneDrive\\Masaüstü\\Rotalarim\\Rotalarim\\wwwroot\\img\\p1.jpg",
+      "PackagePath": "staticwebassets\\img\\p1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\doann\\OneDrive\\Masaüstü\\Rotalarim\\Rotalarim\\wwwroot\\img\\p2.jpg",
+      "PackagePath": "staticwebassets\\img\\p2.jpg"
     },
     {
       "Id": "C:\\Users\\doann\\OneDrive\\Masaüstü\\Rotalarim\\Rotalarim\\wwwroot\\lib\\bootstrap-icons\\bootstrap-icons.svg",

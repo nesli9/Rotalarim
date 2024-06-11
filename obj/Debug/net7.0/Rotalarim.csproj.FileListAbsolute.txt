@@ -65,3 +65,4 @@ C:\Users\doann\OneDrive\Masaüstü\Rotalarim\Rotalarim\bin\Debug\net7.0\runtimes
 C:\Users\doann\OneDrive\Masaüstü\Rotalarim\Rotalarim\bin\Debug\net7.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\doann\OneDrive\Masaüstü\Rotalarim\Rotalarim\bin\Debug\net7.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\doann\OneDrive\Masaüstü\Rotalarim\Rotalarim\obj\Debug\net7.0\Rotalarim.csproj.Up2Date
+C:\Users\doann\OneDrive\Masaüstü\Rotalarim\Rotalarim\obj\Debug\net7.0\Rotalarim.sourcelink.json

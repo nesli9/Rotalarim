@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "s/0fbWocw20X8aQG9C9oJV/tVTdslCglWRPOD3us1Io=",
+  "Hash": "Yz7/ZWg7o/WEFQ+d8IC7Y/k6ShPcyK5hM8Nx6yHpsPw=",
   "Source": "Rotalarim",
   "BasePath": "_content/Rotalarim",
   "Mode": "Default",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\doann\\OneDrive\\Masaüstü\\Rotalarim\\Rotalarim\\wwwroot\\css\\style.css",
+      "SourceId": "Rotalarim",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\doann\\OneDrive\\Masaüstü\\Rotalarim\\Rotalarim\\wwwroot\\",
+      "BasePath": "_content/Rotalarim",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
     {
       "Identity": "C:\\Users\\doann\\OneDrive\\Masaüstü\\Rotalarim\\Rotalarim\\wwwroot\\img\\1.jpg",
       "SourceId": "Rotalarim",
@@ -72,6 +91,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\doann\\OneDrive\\Masaüstü\\Rotalarim\\Rotalarim\\wwwroot\\img\\p1.jpg",
+      "SourceId": "Rotalarim",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\doann\\OneDrive\\Masaüstü\\Rotalarim\\Rotalarim\\wwwroot\\",
+      "BasePath": "_content/Rotalarim",
+      "RelativePath": "img/p1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\p1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\doann\\OneDrive\\Masaüstü\\Rotalarim\\Rotalarim\\wwwroot\\img\\p2.jpg",
+      "SourceId": "Rotalarim",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\doann\\OneDrive\\Masaüstü\\Rotalarim\\Rotalarim\\wwwroot\\",
+      "BasePath": "_content/Rotalarim",
+      "RelativePath": "img/p2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\p2.jpg"
     },
     {
       "Identity": "C:\\Users\\doann\\OneDrive\\Masaüstü\\Rotalarim\\Rotalarim\\wwwroot\\lib\\bootstrap-icons\\bootstrap-icons.svg",

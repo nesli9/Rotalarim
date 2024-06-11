@@ -30,8 +30,8 @@ namespace Rotalarim.Data.Concrete.EfCore{
                     if (!context.Users.Any())
                     {
                         context.Users.AddRange(
-                            new User { UserName = "doanneslihan" },
-                            new User { UserName = "aysesanemagca" }
+                            new User { UserName = "doanneslihan" ,Image="p1.jpg"},
+                            new User { UserName = "aysesanemagca" ,Image="p2.jpg"}
                         );
                         context.SaveChanges();
                     }
@@ -46,7 +46,12 @@ namespace Rotalarim.Data.Concrete.EfCore{
                                 PublishedOn = DateTime.Now.AddDays(-10),
                                 Tags = context.Tags.Take(3).ToList(),
                                 Image="1.jpg",
-                                UserId = 1
+                                UserId = 1,
+                                Comments = new List<Comment>{ 
+                                    new Comment {Text = "Çok güzel bir yer", PublishedOn = new DateTime() ,UserId =1},
+                                    new Comment {Text = "Harika manzara", PublishedOn = new DateTime() ,UserId =2}
+                                    
+                                }
                             },
                             new Post {
                                 Title = "Kocaeli",
@@ -66,7 +71,10 @@ namespace Rotalarim.Data.Concrete.EfCore{
                                 PublishedOn = DateTime.Now.AddDays(-5),
                                 Tags = context.Tags.Take(4).ToList(),
                                 Image="3.jpg",
-                                UserId = 2
+                                UserId = 2,
+                                Comments = new List<Comment>{ 
+                                    new Comment {Text = "Bu neee mükemmell", PublishedOn = new DateTime() ,UserId =1}
+                                }
                             },
                             new Post {
                                 Title = "Hatay",
