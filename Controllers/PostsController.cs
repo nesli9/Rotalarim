@@ -36,20 +36,25 @@ namespace Rotalarim.Controllers{
                                 .FirstOrDefaultAsync(p => p.Url == url));
         }
         [HttpPost]
-        public IActionResult AddComment(int PostId , string UserName ,string Text ){
-            var entity = new Comment{
+        public IActionResult AddComment(int PostId ,string Text ){
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);//claimstypes bir listedir ve liste elemanlarıunı bu şekilde çağırabiliyoruz
+            var username = User.FindFirstValue(ClaimTypes.Name);
+            var avatar = User.FindFirstValue(ClaimTypes.UserData);
+
+
+            var entity = new Comment {
+                PostId = PostId,
                 Text = Text,
                 PublishedOn = DateTime.Now,
-                PostId = PostId,
-                User  = new User {UserName = UserName , Image = "avatar.jpg" }
+                UserId = int.Parse(userId ?? "")
             };
             _commentRepository.CreateComment(entity);
 
             return Json(new { //gelen json bilgisi burada yapılandırılır
-                UserName,
+                username,
                 Text,
                 entity.PublishedOn,
-                entity.User.Image
+                avatar
             });
 
         }
