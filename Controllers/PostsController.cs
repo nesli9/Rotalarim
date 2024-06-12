@@ -35,7 +35,8 @@ namespace Rotalarim.Controllers{
                                 .ThenInclude(x => x.User)
                                 .FirstOrDefaultAsync(p => p.Url == url));
         }
-        public IActionResult AddComment(int PostId , string UserName ,string Text ,string Url){
+        [HttpPost]
+        public IActionResult AddComment(int PostId , string UserName ,string Text ){
             var entity = new Comment{
                 Text = Text,
                 PublishedOn = DateTime.Now,
@@ -44,8 +45,12 @@ namespace Rotalarim.Controllers{
             };
             _commentRepository.CreateComment(entity);
 
-            //return Redirect("/posts/details/" + Url);
-            return RedirectToRoute("post_details", new{url = Url});
+            return Json(new { //gelen json bilgisi burada yapılandırılır
+                UserName,
+                Text,
+                entity.PublishedOn,
+                entity.User.Image
+            });
 
         }
 
