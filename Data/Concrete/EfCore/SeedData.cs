@@ -30,8 +30,8 @@ namespace Rotalarim.Data.Concrete.EfCore{
                     if (!context.Users.Any())
                     {
                         context.Users.AddRange(
-                            new User { UserName = "doanneslihan" ,Image="p1.jpg"},
-                            new User { UserName = "aysesanemagca" ,Image="p2.jpg"}
+                            new User { UserName = "doanneslihan9" ,Name = "Neslihan Doğan",Email ="info@neslihan.com",Password="123456" ,Image="p1.jpg"},
+                            new User { UserName = "aysesanemagca" ,Name = "Ayşe Ağca ",Email ="info@ayse.com",Password="abc123", Image="p2.jpg"}
                         );
                         context.SaveChanges();
                     }
