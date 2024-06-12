@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Yz7/ZWg7o/WEFQ+d8IC7Y/k6ShPcyK5hM8Nx6yHpsPw=",
+  "Hash": "kvAc9Csvq7Zr8G4Dpn5GCXoHZnLOD2UnUNY4WmzZfIU=",
   "Source": "Rotalarim",
   "BasePath": "_content/Rotalarim",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\doann\\OneDrive\\Masaüstü\\Rotalarim\\Rotalarim\\wwwroot\\img\\avatar.jpg",
+      "SourceId": "Rotalarim",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\doann\\OneDrive\\Masaüstü\\Rotalarim\\Rotalarim\\wwwroot\\",
+      "BasePath": "_content/Rotalarim",
+      "RelativePath": "img/avatar.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\avatar.jpg"
     },
     {
       "Identity": "C:\\Users\\doann\\OneDrive\\Masaüstü\\Rotalarim\\Rotalarim\\wwwroot\\img\\p1.jpg",

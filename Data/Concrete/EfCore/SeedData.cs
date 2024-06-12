@@ -48,8 +48,8 @@ namespace Rotalarim.Data.Concrete.EfCore{
                                 Image="1.jpg",
                                 UserId = 1,
                                 Comments = new List<Comment>{ 
-                                    new Comment {Text = "Çok güzel bir yer", PublishedOn = new DateTime() ,UserId =1},
-                                    new Comment {Text = "Harika manzara", PublishedOn = new DateTime() ,UserId =2}
+                                    new Comment {Text = "Çok güzel bir yer", PublishedOn = DateTime.Now.AddDays(-20) ,UserId =1},
+                                    new Comment {Text = "Harika manzara", PublishedOn = DateTime.Now.AddDays(-10) ,UserId =2}
                                     
                                 }
                             },

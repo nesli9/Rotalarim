@@ -3,15 +3,18 @@ using Rotalarim.Data.Concrete.EfCore;
 using Microsoft.AspNetCore.Mvc;
 using Rotalarim.Models;
 using Microsoft.EntityFrameworkCore;
+using Rotalarim.Entity;
 
 namespace Rotalarim.Controllers{
     public class PostsController : Controller
     {
         private IPostRepository _postRepository;
+        private ICommentRepository _commentRepository;
         private ITagRepository _tagRepository;
-
-        public PostsController(IPostRepository postRepository ){
+        public PostsController(IPostRepository postRepository, ICommentRepository commentRepository, ITagRepository tagRepository ){
             _postRepository = postRepository; //inject yöntemiyle nesne oluşturulması sağlanır
+            _commentRepository = commentRepository;
+            _tagRepository = tagRepository;
         }
         public async Task<IActionResult> Index(string tag){
 
@@ -31,6 +34,19 @@ namespace Rotalarim.Controllers{
                                 .Include(x => x.Comments) 
                                 .ThenInclude(x => x.User)
                                 .FirstOrDefaultAsync(p => p.Url == url));
+        }
+        public IActionResult AddComment(int PostId , string UserName ,string Text ,string Url){
+            var entity = new Comment{
+                Text = Text,
+                PublishedOn = DateTime.Now,
+                PostId = PostId,
+                User  = new User {UserName = UserName , Image = "avatar.jpg" }
+            };
+            _commentRepository.CreateComment(entity);
+
+            //return Redirect("/posts/details/" + Url);
+            return RedirectToRoute("post_details", new{url = Url});
+
         }
 
     }
