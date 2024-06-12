@@ -58,7 +58,7 @@ namespace Rotalarim.Controllers{
 
         public async Task<IActionResult> Logout()
         {
-            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);//çıkış yapan kullanıcının cookielerini siler ve alttaki kodla login sayfasına yönlendirir
             return RedirectToAction("Login");
         }
 
