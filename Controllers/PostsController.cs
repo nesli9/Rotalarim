@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 using Rotalarim.Models;
 using Microsoft.EntityFrameworkCore;
 using Rotalarim.Entity;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Rotalarim.Controllers{
     public class PostsController : Controller
