@@ -37,7 +37,7 @@ namespace Rotalarim.Controllers{
             if(ModelState.IsValid)
             {
                 var user = await _userRepository.Users.FirstOrDefaultAsync(x => x.UserName == model.UserName || x.Email == model.Email);
-                if(user == null)
+                if(user == null) 
                 {
                     _userRepository.CreateUser(new User {
                         UserName  = model.UserName,
@@ -50,7 +50,7 @@ namespace Rotalarim.Controllers{
                 }
                 else
                 {
-                    ModelState.AddModelError("", "Username ya da Email kullanımda.");
+                    ModelState.AddModelError("", "Username ya da Email kullanımda.");//daha önce üye olunmuş mail veya kullanıcı adı olduğunu söyler
                 }
             }
             return View(model);

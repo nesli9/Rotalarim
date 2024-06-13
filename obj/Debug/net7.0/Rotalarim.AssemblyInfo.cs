@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Rotalarim")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57dbae897d692e3d3a131d82b1fbb506b829f644")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+91601326364ec12a95248f42f511a32ccc269023")]
 [assembly: System.Reflection.AssemblyProductAttribute("Rotalarim")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Rotalarim")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
